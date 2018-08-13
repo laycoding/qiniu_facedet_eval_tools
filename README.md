@@ -7,8 +7,8 @@
 1、使用方法：
 
 ```
-▶ python bk-det-eval.py -h
-usage: bk-det-eval.py [-h] --gt GT --json API_RESULT
+▶ python face-det-eval.py -h
+usage: face-det-eval.py [-h] --gt GT --json API_RESULT
 
 script for face detection test
 
