@@ -130,7 +130,6 @@ def calculate_det_acc(json_file, lib_dict):
         else:
             precision = correct_labeled_bbox_num / all_labeled_bbox_num
         print("Recall is: %.3f, and precision is: %.3f" % (recall, precision))
-        print correct_sand_bbox_num, all_sand_bbox_num
 
     return precision, recall
 
